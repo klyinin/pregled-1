@@ -1,0 +1,208 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/llListingImagesContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvListingImages"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvListingNameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llListingImagesContainer"
+        android:layout_marginTop="16dp"
+        android:text="@string/listing_name_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvListingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingNameTitle"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvListingDateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingName"
+        android:layout_marginTop="16dp"
+        android:text="@string/listing_date"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvListingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingDateTitle"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tvListingCategoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingDate"
+        android:layout_marginTop="16dp"
+        android:text="@string/listing_category"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvListingCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingCategoryTitle"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvListingPriceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingCategory"
+        android:layout_marginTop="8dp"
+        android:text="@string/listing_price_title"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvListingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingPriceTitle"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvListingDescriptionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingPrice"
+        android:layout_marginTop="8dp"
+        android:text="@string/listing_description_title"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvListingDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingDescriptionTitle"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvOwnerNameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListingDescription"
+        android:layout_marginTop="8dp"
+        android:text="@string/owner_name_title"
+        android:textSize="18sp"
+        android:background="#DDDDDD"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOwnerNameTitle"
+        android:textSize="16sp"
+        android:background="#DDDDDD"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvOwnerPhoneTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOwnerName"
+        android:layout_marginTop="8dp"
+        android:text="@string/owner_phone_title"
+        android:textSize="18sp"
+        android:background="#DDDDDD"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvOwnerPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOwnerPhoneTitle"
+        android:textSize="16sp"
+        android:background="#DDDDDD"
+        android:padding="8dp" />
+
+
+    <TextView
+        android:id="@+id/tvOwnerAdressTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOwnerPhone"
+        android:layout_marginTop="8dp"
+        android:text="@string/owner_address_title"
+        android:textSize="18sp"
+        android:background="#DDDDDD"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvOwnerAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOwnerAdressTitle"
+        android:textSize="16sp"
+        android:background="#DDDDDD"
+        android:padding="8dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleFavorite"
+        android:layout_width="108dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/tvOwnerAdress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/toggle_button_selector"
+        android:checked="false"
+        android:textOff=""
+        android:textOn="" />
+
+    <Button
+        android:id="@+id/btnUpdateListing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toggleFavorite"
+        android:layout_marginTop="16dp"
+        android:text="@string/update_listing_button"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnDeleteListing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdateListing"
+        android:layout_marginTop="8dp"
+        android:text="@string/delete_listing_button"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
+</ScrollView>

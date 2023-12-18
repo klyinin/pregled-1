@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Vendorium</string>
+
+    <!-- Overall -->
+    <string name="loadingData">Loading data. . . </string>
+    <string name="noListings">No listings found! </string>
+    <!-- Login activity -->
+    <string name="login">Login</string>
+    <string name="forgotPassword">forgot password?</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="signIn">SIGN IN</string>
+    <string name="signUp"> Sign up</string>
+    <string name="newUser">New user?</string>
+
+    <!-- Register activity -->
+    <string name="register">Register</string>
+    <string name="repeatPassword">Repeat password</string>
+    <string name="alreadyRegistered">Already registered?</string>
+    <string name="backToLogin">Back to login</string>
+    <string name="registerButton">REGISTER</string>
+    <string name="title_activity_listing">ListingActivity</string>
+
+    <!-- User fragment -->
+    <string name="signOut"> Sign out</string>
+    <string name="contact"> Contact - Phone:</string>
+    <string name="address"> Address - Region:</string>
+    <string name="editProfile"> EDIT PROFILE</string>
+    <string name="myListingsButton"> MY LISTINGS</string>
+
+    <!-- Edit profile fragment -->
+    <string name="name"> Name</string>
+    <string name="surname"> Surname</string>
+    <string name="backToProfile"> Back To Profile</string>
+    <string name="saveProfile"> Save Profile</string>
+    <string name="contactEdit"> Phone</string>
+    <string name="addressEdit"> Region</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Activity Listing Details -->
+    <string name="listing_name_title">Listing Name:</string>
+    <string name="listing_price_title">Listing Price:</string>
+    <string name="listing_description_title">Listing Description:</string>
+    <string name="owner_name_title">Owner Name:</string>
+    <string name="owner_phone_title">Owner Phone:</string>
+    <string name="owner_address_title">Owner Address:</string>
+
+    <string name="listing_date">Listing Date:</string>
+    <string name="listing_category">Category:</string>
+
+    <string name="update_listing_button">Update Listing</string>
+    <string name="delete_listing_button">Delete Listing</string>
+
+    <!-- Add Listing Fragment -->
+    <string name="listing_name_hint">Listing Name</string>
+    <string name="listing_price_hint">Listing Price</string>
+    <string name="listing_description_hint">Listing Description</string>
+    <string name="upload_image_button">Upload Image</string>
+    <string name="save_button">Save</string>
+    <string name="choose_button">Choose</string>
+    <string name="choose_image"> Choose Image</string>
+
+    <!-- Language Picker Dialog -->
+    <string name="languagePickerTitle">Pick a Language:</string>
+    <string-array name="languagesArray">
+        <item>Slovenian</item>
+        <item>English</item>
+    </string-array>
+
+    <!-- FetchingOglasiActivity-->
+    <string name="fetching_listings">Loading Data…</string>
+
+
+
+</resources>

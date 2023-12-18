@@ -1,0 +1,88 @@
+<!-- Add Listing Fragment -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Image selection buttons -->
+
+
+    <!-- Selected images -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvChooseImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/choose_image"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnChoose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_button" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSelectedImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- Other listing details -->
+    <EditText
+        android:id="@+id/etListingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/listing_name_hint"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etListingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/listing_price_hint"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etListingDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/listing_description_hint"
+        android:gravity="top"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Vendorium</string>
+
+    <!-- Overall -->
+    <string name="loadingData">Nalaganje oglasov. . . </string>
+    <string name="noListings">Ni oglasov! </string>
+    <!-- Login activity -->
+    <string name="login">Prijava</string>
+    <string name="forgotPassword">pozabljeno geslo?</string>
+    <string name="email">E-mail</string>
+    <string name="password">geslo</string>
+    <string name="signIn">PRIJAVA</string>
+    <string name="signUp"> REGISTRACIJA</string>
+    <string name="newUser">Nov uporabnik?</string>
+
+    <!-- Register activity -->
+    <string name="register">Registracija</string>
+    <string name="repeatPassword">Ponovi geslo</string>
+    <string name="alreadyRegistered">Že registriran?</string>
+    <string name="backToLogin">Nazaj na prijavo</string>
+    <string name="registerButton">REGISTRACIJA</string>
+    <string name="title_activity_listing">ListingActivity</string>
+
+    <!-- User fragment -->
+    <string name="signOut"> Odjava</string>
+    <string name="contact"> Kontakt - Telefon:</string>
+    <string name="address"> Naslov - Regija:</string>
+    <string name="editProfile"> UREDI PROFIL</string>
+    <string name="myListingsButton"> MOJI OGLASI</string>
+
+    <!-- Edit profile fragment -->
+    <string name="name"> Ime</string>
+    <string name="surname"> Priimek</string>
+    <string name="backToProfile"> Nazaj Na Profil</string>
+    <string name="saveProfile"> Shrani Profil</string>
+    <string name="contactEdit"> Telefon</string>
+    <string name="addressEdit"> Regija</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Naslednji</string>
+    <string name="previous">Prejšnji</string>
+
+    <!-- Activity Listing Details -->
+    <string name="listing_name_title">Naziv:</string>
+    <string name="listing_price_title">Cena:</string>
+    <string name="listing_description_title">Opis:</string>
+    <string name="owner_name_title">Ime Lastnika:</string>
+    <string name="owner_phone_title">Kontakt Lastnika:</string>
+    <string name="owner_address_title">Lokacija Lastnika:</string>
+    <string name="update_listing_button">Posodobi Objavo</string>
+    <string name="delete_listing_button">Izbriši Objavo</string>
+    <string name="listing_date">Datum objave:</string>
+    <string name="listing_category">Tip oglasa:</string>
+
+    <!-- Add Listing Fragment -->
+    <string name="listing_name_hint">Naziv</string>
+    <string name="listing_price_hint">Cena</string>
+    <string name="listing_description_hint">Opis</string>
+    <string name="upload_image_button">Naloži Sliko</string>
+    <string name="save_button">Shrani</string>
+    <string name="choose_button">Izberi</string>
+    <string name="choose_image">Dodaj sliko</string>
+
+    <!-- Language Picker Dialog -->
+    <string name="languagePickerTitle">Izberi Jezik:</string>
+    <string-array name="languagesArray">
+        <item>Slovenščina</item>
+        <item>Angleščina</item>
+    </string-array>
+
+    <!-- FetchingOglasiActivity-->
+    <string name="fetching_listings">Nalaganje oglasov…</string>
+
+
+
+    <!-- EditListingActivity-->
+
+
+</resources>

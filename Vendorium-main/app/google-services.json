@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "472292970767",
+    "firebase_url": "https://vendorium-9bdb9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vendorium-9bdb9",
+    "storage_bucket": "vendorium-9bdb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472292970767:android:8dbc24a9951c0ffcfc2e7a",
+        "android_client_info": {
+          "package_name": "com.bobi.vendorium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472292970767-nt7m8opl29v175ado0dr5ahkv21o5nn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bobi.vendorium",
+            "certificate_hash": "85e6c857e28196c2063f55638551a655dbb93520"
+          }
+        },
+        {
+          "client_id": "472292970767-ltcejpikarg2e8vnc2la86od4smtgub0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOsqWj3-fz0cIh6YWJRatPlgosviUGLgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472292970767-ltcejpikarg2e8vnc2la86od4smtgub0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
